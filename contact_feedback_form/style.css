@@ -1,75 +1,73 @@
-.main {
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(244, 247, 246);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-.form-container {
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    width: 100%;
-    max-width: 500px;
-}
-p {
+p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(68, 68, 68);
     font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 6px;
+    margin-left: 450px;
+    margin-bottom: 4px;
 }
-.heading {
+.heading{
     font-size: 24px;
     font-weight: 700;
     color: rgb(51, 51, 51);
-    text-align: center;
-    margin-top: 0;
+    margin-left: 535px;
     margin-bottom: 25px;
 }
-.i1, .i2, .i3 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+.i1{
+     margin-left: 450px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     cursor: text;
+     border-color: rgb(204, 204, 204);
+     border-style: solid;
+     width: 450px;
+     height: 24px;    
+     border-radius: 4px;     
+}
+.i2{
+     margin-left: 450px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     cursor: text;
+     border-color: rgb(204, 204, 204);
+     border-style: solid;
+     width: 450px;
+     height: 24px;
+     border-radius: 4px;    
+}
+.i3{
+     margin-left: 450px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     cursor: text;
+     border-color: rgb(204, 204, 204);
+     border-style: solid;
+     width: 450px;
+     height: 24px;
+     border-radius: 4px;    
+}
+.r1 {
+    width: 300px;       
+    padding-left: 450px;
+    color: rgb(68, 68, 68) ;
+}
+.r2{
+    width: 300px;       
+    padding-left: 450px;
+    color: rgb(68, 68, 68) ;
+}
+.r3{
+    color: rgb(68, 68, 68) ;
     cursor: text;
-    border: 1px solid rgb(204, 204, 204);
-    width: 100%;
-    height: 30px;
+    margin-left: 450px;
+    width: 450px;
+    height: 24px;
     border-radius: 4px;
-    box-sizing: border-box;
-    padding: 5px 10px;
-    margin-bottom: 12px;
 }
-.i1:focus, .i2:focus, .i3:focus {
-    border-color: rgb(0, 102, 255);
-    outline: none;
-}
-.comment {
-    width: 100%;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 4px;
-    font-size: medium;
-    padding: 10px;
-    resize: vertical;
-}
-.comment:focus {
-    border-color: rgb(0, 102, 255);
-    outline: none;
-}
-.r1, .r2, .r3 {
-    color: rgb(68, 68, 68);
-    margin-bottom: 15px;
-}
-.button-group {
-    display: flex;
-    gap: 15px;
-    margin-top: 25px;
-}
-.btn-submit {
-    flex: 1;
+.btn-submit{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 5px;
+    width: 200px;
     height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -80,8 +78,8 @@ p {
     border-radius: 4px;
     cursor: pointer;
 }
-.btn-reset {
-    flex: 1;
+.btn-reset{
+     width: 200px;
     height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
