@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Contact & Feedback Form</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <title>Contact & Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <div class="form-container">
         <p class="heading"><u>Contact & Feedback Form</u></p>
-        <div>
-            <p class="p1">Full Name</p>
-        </div>
-        <div>
-            <input class="i1" type="text" id="name" name="name" placeholder="Enter your Full Name">
-        </div>
-        <div>
-            <p class="p2">Email Address</p>
-        </div>
-        <div>
-            <input class="i2" type="email" id="email" name="email" placeholder="Enter your Email">
-        </div>
-        <div>
-            <p class="p3">Phone Number</p>
-        </div>
-        <div>
-            <input class="i3" type="tel" id="Phone" name="Phone" placeholder="Enter your Phone Number">
-        </div>
-         <p>How would you rate our service?</p>
-       <div class="r1">
-       <form action="/submit-form" method="POST">
-        <input type="radio" id="excellent" name="rating" value="excellent" >
-        <label for="excellent">Excellent</label><br>
+            <div>
+                <label class="p1">Full Name</label>
+            </div>
+            <div>
+                <input class="i1" type="text" id="name" name="name" placeholder="Enter your Full Name">
+            </div>
+            <div>
+                <label class="p2">Email Address</label>
+            </div>
+            <div>
+                <input class="i2" type="email" id="email" name="email" placeholder="Enter your Email">
+            </div>
+            <div>
+                <label class="p3">Phone Number</label>
+            </div>
+            <div>
+                <input class="i3" type="tel" id="Phone" name="Phone" placeholder="Enter your Phone Number">
+            </div>
+            
+            <p>How would you rate our service?</p>
+            <div class="r1">
+                <input type="radio" id="excellent">
+                <label>Excellent</label><br>
 
-        <input type="radio" id="good" name="rating" value="good">
-        <label for="good">Good</label><br>
+                <input type="radio" id="good">
+                <label>Good</label><br>
 
-        <input type="radio" id="poor" name="rating" value="poor">
-        <label for="poor">Poor</label>
-       </form>
-       </div>
-       <p>What did you like the most?(Select all that apply)</p>
- <div class="r2">
-    <form action="/submit-form" method="POST">
-        
-  
-        <input type="checkbox" id="design" name="like_design" value="design">
-        <label for="design">Design</label><br>
+                <input type="radio" id="poor">
+                <label>Poor</label>
+            </div>
+            
+            <p>What did you like the most? (Select all that apply)</p>
+            <div class="r2">
+                <input type="checkbox" id="design">
+                <label>Design</label><br>
 
-        <input type="checkbox" id="performance" name="like_performance" value="performance">
-        <label for="performance">Performance</label><br>
+                <input type="checkbox" id="performance">
+                <label>Performance</label><br>
 
-        <input type="checkbox" id="support" name="like_support" value="support">
-        <label for="support">Support</label>
-    </form>
-  </div>
-  <p><label for="comments">How can we improve? Leave your feedback below:</label></p>
-  <div class="r3">
-    <form action="/submit-form" method="POST">        
-        <textarea id="comments" name="comments" rows="6" cols="45" placeholder="Write your comment here..."></textarea>
-    </form>
-  </div>
-     <button type="submit" class="btn-submit">Submit</button>
-     <button type="reset" class="btn-reset">Reset</button>
-    </body>
+                <input type="checkbox" id="support">
+                <label>Support</label>
+            </div>
+            
+            <p><label for="comments">How can we improve? Leave your feedback below:</label></p>
+            <div class="r3">
+                <textarea class="comment" id="comments" name="comments" rows="6" placeholder="Write your comment here..."></textarea>
+            </div>
+            
+            <div class="button-group">
+                <button type="submit" class="btn-submit">Submit</button>
+                <button type="reset" class="btn-reset">Reset</button>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
 </html>
